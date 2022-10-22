@@ -1,0 +1,47 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color:rgb(34, 32, 32);
+    color:rgb(212, 212, 187);
+    text-align: center;
+}
+.red-tile{
+    border-bottom-right-radius: 40vw;
+    background-color: red;
+}
+.yellow-tile{
+    border-bottom-left-radius: 40vw;
+    background-color: yellow;
+}
+.green-tile{
+    border-top-right-radius: 40vw;
+    background-color: green;
+}
+.blue-tile{
+    border-top-left-radius: 40vw;
+    background-color: blue;
+}
+
+.tiles{
+    width: 40vw;
+    height: 30vh;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tiles:hover{
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 0px 20px rgb(110, 80, 138);
+}
+
+
+.active{
+    background-color: rgb(255, 255, 255);
+}
+
+.active-h2{
+    background-color:azure;
+    font-size: 30px;
+    color: rgb(185, 91, 91);
+}
