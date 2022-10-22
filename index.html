@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Simon Says Game</h1>
+   <div class="score-indication">
+        <h2 id="message">Keep playing, you got this!</h2>
+        <h2 id="current-score">Current Score: 0</h2>
+   </div>
+
+    <div>
+        <div class="tiles blue-tile" onClick="tileClicked(event.currentTarget)"></div>
+        <div class=" tiles green-tile" onClick="tileClicked(event.currentTarget)"></div>
+    </div>
+   <div>
+        <div class="tiles yellow-tile" onClick="tileClicked(event.currentTarget)"></div>
+        <div class="tiles red-tile" onClick="tileClicked(event.currentTarget)"></div>
+   </div>
+   
+   <script src="main.js"></script>
+
+</body>
+<footer>
+    <h3> By: Vincent Truong</h3>
+</footer>
+</html>
